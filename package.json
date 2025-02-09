@@ -1,0 +1,20 @@
+{
+  "name": "check-telegram-user-reaction",
+  "version": "1.0.0",
+  "description": "An example Telegram bot to check if a user has reacted to a message using inline keyboard simulation. Supports obtaining target message info via a message link and resolving a target user by username.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "reaction",
+    "node-telegram-bot-api"
+  ],
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
